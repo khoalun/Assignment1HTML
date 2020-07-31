@@ -1,0 +1,66 @@
+$blue-color: rgb(0, 132, 255);
+$aqua-color:	#00FFFF;
+$color-black: #262d3d;
+
+ $lightgoldenrodyellow-color: #FAFAD2;
+* {
+box-sizing : border-box ;
+
+}
+main{
+    border-top: 1px $blue-color solid;
+    border-bottom: 2px $aqua-color solid;
+    
+};
+
+header, footer {
+ display:flex;
+ align-items:center;
+ justify-content: space-between;
+}
+.logo{
+    font-size: 40px;
+    padding: 8px;
+}
+.navBar__item {
+
+
+    &--inside{
+        padding : 20px;
+    }
+    
+}
+.section {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px 	#00FFFF solid; 
+    &__text{
+        padding : 8px;
+        margin: 10px;
+    }
+    &__title {
+        text-align: center;
+        color:	#00FFFF;
+        margin: auto;
+        &--continue{
+            text-align : center;
+        }
+    }
+    &__products{
+        display:flex;
+    }
+    &__product {
+        border-bottom: black 1px solid;
+        display:flex;
+
+    }
+    &__text {
+        text-align: center;
+        border: black 1px solid;
+    }
+    &__MoreInformation--center{
+        text-align: center;
+    }
+
+}

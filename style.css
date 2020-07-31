@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  border-top: 1px #0084ff solid;
+  border-bottom: 2px #00FFFF solid;
+}
+
+header, footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 40px;
+  padding: 8px;
+}
+
+.navBar__item--inside {
+  padding: 20px;
+}
+
+.section {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px #00FFFF solid;
+}
+.section__text {
+  padding: 8px;
+  margin: 10px;
+}
+.section__title {
+  text-align: center;
+  color: #00FFFF;
+  margin: auto;
+}
+.section__title--continue {
+  text-align: center;
+  border-top: 1px black solid;
+}
+.section__products {
+  display: flex;
+}
+.section__product {
+  border-bottom: black 1px solid;
+  display: flex;
+}
+.section__text {
+  text-align: center;
+  border: black 1px solid;
+}
+.section__MoreInformation--center {
+  text-align: center;
+}
+.section__description--continue {
+  font-size: 100px;
+  display:flex;
+  justify-content: space-around;
+
+}
+.section__text1{
+  border-top: 1px black solid;
+  margin: 10px;
+}
+.section__title--center{
+  text-align: center;
+}
+.section__form{
+  display:grid;
+  border:1px black solid;
+  margin: 40px auto 60px auto;
+  grid-gap: 10px;
+  grid-template-columns : 25% 70%;
+  padding:40px;
+  width:25%;
+
+}
+.section__formSubmit{
+  text-align: end;
+  grid-column-end: 3;
+}
+
+
+/*# sourceMappingURL=style.css.map */
